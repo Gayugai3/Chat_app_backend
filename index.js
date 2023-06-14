@@ -22,7 +22,7 @@ mongoose
     console.log("DB Connetion Successfull");
   })
   .catch((err) => {
-    console.log(err.message);
+    console.log("Error " + err.message);
   });
 
 const server = app.listen(process.env.PORT, () => {
